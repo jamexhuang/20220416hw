@@ -3,6 +3,7 @@
 # discount_amount: 折扣額 str
 # actural_pay: 實付款 str
 
+
 print("企管1, 311057012, 黃子峻")
 
 try:
