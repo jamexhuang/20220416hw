@@ -11,7 +11,6 @@ try:
 
     if amount < 0:
         print("金額不可小於0\n程式結束")
-        exit(0)
 
     elif amount < 5000:
         #打95折
@@ -19,7 +18,6 @@ try:
         discount_amount = round(amount - pay,1)
         print("折扣數為: 95 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
-        exit(0)
 
     elif amount < 8000:
         #打9折
@@ -27,7 +25,6 @@ try:
         discount_amount = round(amount - pay,1)
         print("折扣數為: 9 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
-        exit(0)
 
     elif amount < 10000:
         #打85折
@@ -35,7 +32,6 @@ try:
         discount_amount = round(amount - pay,1)
         print("折扣數為: 85 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
-        exit(0)
 
     elif amount < 20000:
         #打8折
@@ -43,7 +39,6 @@ try:
         discount_amount = round(amount - pay,1)
         print("折扣數為: 8 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
-        exit(0)
 
     elif amount < 30000:
         #打75折
@@ -51,7 +46,6 @@ try:
         discount_amount = round(amount - pay,1)
         print("折扣數為: 75 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
-        exit(0)
 
     else:
         #打7折
@@ -59,9 +53,6 @@ try:
         discount_amount = round(amount - pay,1)
         print("折扣數為: 7 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
-        exit(0)
-
 
 except ValueError:
     print("只能輸入數字")
-    exit(O)
