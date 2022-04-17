@@ -24,7 +24,7 @@ try:
         #打9折
         pay = round(amount * 90/100,1)
         discount_amount = round(amount - pay,1)
-        print("折扣數為: 95 折")
+        print("折扣數為: 9 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
         exit(0)
 
@@ -32,7 +32,7 @@ try:
         #打85折
         pay = round(amount * 85/100,1)
         discount_amount = round(amount - pay,1)
-        print("折扣數為: 95 折")
+        print("折扣數為: 85 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
         exit(0)
 
@@ -40,7 +40,7 @@ try:
         #打8折
         pay = round(amount * 80/100,1)
         discount_amount = round(amount - pay,1)
-        print("折扣數為: 95 折")
+        print("折扣數為: 8 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
         exit(0)
 
@@ -48,7 +48,7 @@ try:
         #打75折
         pay = round(amount * 75/100,1)
         discount_amount = round(amount - pay,1)
-        print("折扣數為: 95 折")
+        print("折扣數為: 75 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
         exit(0)
 
@@ -56,7 +56,7 @@ try:
         #打7折
         pay = round(amount * 70/100,1)
         discount_amount = round(amount - pay,1)
-        print("折扣數為: 95 折")
+        print("折扣數為: 7 折")
         print("折扣金額為: " + str(discount_amount) + "\n實付金額為: " + str(pay))
         exit(0)
 
